@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@mipmap/bgcover">
+	android:padding="20px">
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1">
+		<Button
+			android:text="Main Menu"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="50px"
+			android:background="#f2d415"
+			android:id="@+id/btnMainMenu" />
+	</LinearLayout>
+	<TextView
+		android:text="Enter Your Item :"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="40px"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<EditText
+			android:layout_width="500px"
+			android:layout_height="wrap_content"
+			android:id="@+id/itemText" />
+			<Button
+				android:text=" + Add"
+				android:layout_width="180px"
+				android:layout_height="80px"
+				android:id="@+id/AddButton"
+				android:background="#fff"
+				android:layout_marginBottom="50px" />
+	</LinearLayout>	
+	<ListView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:id="@android:id/list"
+		android:padding="10px"
+		android:layout_height="468.5dp" />
+	<TableRow
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/tableRow1"/>
+	
+</LinearLayout>
